@@ -1,6 +1,6 @@
 {
   "name": "@bornfight/b-reset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSS reset used by Bornfight frontend team",
   "main": "src/b-reset.scss",
   "scripts": {
