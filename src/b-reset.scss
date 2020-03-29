@@ -12,6 +12,7 @@ html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     box-sizing: border-box; /* 3 */
+    width: 100%;
 }
 
 /**
@@ -116,6 +117,7 @@ body {
     -webkit-text-size-adjust: none; /* 3 */
     -webkit-font-smoothing: antialiased; /* 4 */
     -moz-osx-font-smoothing: grayscale; /* 4 */
+    width: 100%;
 }
 
 /**
