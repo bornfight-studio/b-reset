@@ -387,3 +387,10 @@ input[autocomplete="off"]:focus::-webkit-textfield-decoration-container {
 select::-ms-expand {
     display: none;
 }
+
+/**
+ * Remove dotted outline from range input on Firefox
+ */
+input[type=range]::-moz-focus-outer {
+    border: 0;
+}
