@@ -319,3 +319,71 @@ summary {
         scroll-behavior: auto !important;
     }
 }
+
+/**
+ * Browser specific form elements reset
+ */
+
+/**
+ * Search input browser additions reset
+ * 1. Clears the 'X' from Chrome
+ * 2. Clears the 'X' from Internet Explorer
+ */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    /* 1 */
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type="search"]::-ms-clear,
+input[type="search"]::-ms-reveal {
+    /* 2 */
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+/**
+ * Remove arrows/spinners from number input
+ * 1. Chrome, Safari, Edge, Opera
+ * 2. Firefox
+ */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* 1 */
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    /* 2 */
+    -moz-appearance: textfield;
+}
+
+/**
+ * Remove Safari autocomplete additions
+ * 1. Contacts fill button
+ * 2. Password fill button
+ * 3. Number input spinner
+ */
+input[autocomplete="off"]::-webkit-contacts-auto-fill-button,
+input[autocomplete="off"]::-webkit-credentials-auto-fill-button,
+input[autocomplete="off"]:focus::-webkit-textfield-decoration-container {
+    /* 1, 2, 3 */
+    visibility: hidden;
+    display: none !important;
+    pointer-events: none;
+    height: 0;
+    width: 0;
+    margin: 0;
+}
+
+/**
+ * Remove select triangle on IE
+ */
+select::-ms-expand {
+    display: none;
+}
