@@ -1,33 +1,33 @@
 {
   "name": "@bornfight/b-reset",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CSS reset used by Bornfight frontend team",
-  "main": "src/b-reset.scss",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "css",
+    "scss",
+    "reset",
+    "bornfight"
+  ],
+  "homepage": "https://github.com/bornfight/b-reset#readme",
+  "bugs": {
+    "url": "https://github.com/bornfight/b-reset/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bornfight/b-reset.git"
   },
-  "keywords": [
-    "css",
-    "scss",
-    "reeset",
-    "bornfight"
-  ],
-  "author": "Bornfight <hello@bornfight.com> (https://www.bornfight.com/)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bornfight/b-reset/issues"
+  "author": "Bornfight <hello@bornfight.com> (https://www.bornfight.com/)",
+  "main": "src/b-reset.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/bornfight/b-reset#readme",
   "devDependencies": {
-    "del": "^5.1.0",
+    "del": "^6.0.0",
     "esm": "^3.2.25",
     "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.2.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.1.0"
   }
 }

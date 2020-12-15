@@ -138,7 +138,8 @@ video,
 object,
 embed {
   display: block;
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto; }
 
 /**
  * Remove outline from tabindex -1
