@@ -371,8 +371,7 @@ input[type="number"] {
  * 3. Number input spinner
  */
 input[autocomplete="off"]::-webkit-contacts-auto-fill-button,
-input[autocomplete="off"]::-webkit-credentials-auto-fill-button,
-input[autocomplete="off"]:focus::-webkit-textfield-decoration-container {
+input[autocomplete="off"]::-webkit-credentials-auto-fill-button {
     /* 1, 2, 3 */
     visibility: hidden;
     display: none !important;
