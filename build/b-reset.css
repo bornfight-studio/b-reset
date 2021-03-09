@@ -136,10 +136,12 @@ img,
 iframe,
 video,
 object,
-embed {
+embed,
+picture {
   display: block;
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  width: 100%; }
 
 /**
  * Remove outline from tabindex -1

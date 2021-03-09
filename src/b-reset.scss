@@ -134,10 +134,12 @@ img,
 iframe,
 video,
 object,
-embed {
+embed,
+picture {
     display: block;
     max-width: 100%;
     height: auto;
+    width: 100%;
 }
 
 /**
