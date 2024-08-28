@@ -1,13 +1,11 @@
+package-lock.json
+yarn.lock
+dist/
 node_modules/
 bower_components/
+.husky/
 .idea/
-.cache/
-coverage/
-dist/*
-!dist/index.html
-*.log
-
-# OS generated files
+.history/
 .DS_Store
 .DS_Store?
 ._*

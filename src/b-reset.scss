@@ -393,6 +393,6 @@ select::-ms-expand {
 /**
  * Remove dotted outline from range input on Firefox
  */
-input[type=range]::-moz-focus-outer {
+input[type="range"]::-moz-focus-outer {
     border: 0;
 }

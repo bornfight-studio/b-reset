@@ -1,33 +1,50 @@
 {
   "name": "@bornfight/b-reset",
-  "version": "1.0.8",
-  "description": "CSS reset used by Bornfight frontend team",
+  "version": "1.0.9",
+  "description": "CSS reset used by Bornfight Studio frontend team",
   "keywords": [
     "css",
     "scss",
     "reset",
-    "bornfight"
+    "bornfight",
+    "bornfight studio"
   ],
-  "homepage": "https://github.com/bornfight/b-reset#readme",
+  "homepage": "https://github.com/bornfight-studio/b-reset#readme",
   "bugs": {
-    "url": "https://github.com/bornfight/b-reset/issues"
+    "url": "https://github.com/bornfight-studio/b-reset/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bornfight/b-reset.git"
+    "url": "git+https://github.com/bornfight-studio/b-reset.git"
   },
   "license": "ISC",
-  "author": "Bornfight <hello@bornfight.com> (https://www.bornfight.com/)",
+  "author": {
+    "name": "BORNFIGHT STUDIO®",
+    "email": "hello@bornfight.studio",
+    "url": "https://www.bornfight.studio"
+  },
   "main": "src/b-reset.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "prettier --write 'src/**/*.{scss,js}' && webpack --mode=production",
+    "format": "prettier --write 'src/**/*.{scss,js}'"
   },
+  "browserslist": [
+    "defaults"
+  ],
   "devDependencies": {
-    "del": "^6.0.0",
-    "esm": "^3.2.25",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0"
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.1",
+    "prettier": "^3.3.3",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-fix-style-only-entries": "^0.6.1"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
   }
 }
