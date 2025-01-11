@@ -1,6 +1,6 @@
 ## B-reset
 
-CSS reset used by Bornfight frontend team
+CSS reset used by Bornfight Studio frontend team
 
 ### Usage
 
